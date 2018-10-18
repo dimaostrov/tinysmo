@@ -14,18 +14,6 @@ class App extends Component {
     return <Router>
       <div>
         <Nav />
-        <Hero
-          backgroundColor="#212529"
-          particlesParams={{ particles: { line_linked: { enable: false } } }}
-          style={{
-            position: 'fixed',
-            top: 0,
-            right: 0,
-            bottom: 0,
-            left: 0,
-            zIndex: -1
-          }}
-        />
         <Switch>
           <Route exact path='/' component={Home} />
           <Route exact path='/about' component={About} />
@@ -33,7 +21,6 @@ class App extends Component {
           <Route exact path='/portfolio' component={Portfolio} />
           <Route exact path='/contact' component={Contact} />
         </Switch>
-
       </div>
     </Router>
   }

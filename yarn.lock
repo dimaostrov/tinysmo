@@ -8127,6 +8127,13 @@ react-stepzilla@^4.7.2:
   resolved "https://registry.yarnpkg.com/react-stepzilla/-/react-stepzilla-4.7.2.tgz#8b366bf2a83ec4d2bea158da102bba897c51101a"
   integrity sha1-izZr8qg+xNK+oVjaECu6iXxREBo=
 
+react-typist@^2.0.4:
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/react-typist/-/react-typist-2.0.4.tgz#e7ee4de53ead913d363d38f07b700c00ce271be0"
+  integrity sha512-2sCW7BcEQJILdPtG4tItCPv3RKVXWEDnfiIWhmbkAf4733kEkrvc9KkOCyZ/J8BeATNYF5wQSrSUY93ACA9Bjg==
+  dependencies:
+    prop-types "^15.5.10"
+
 "react@^15.6.2 || ^16.0", react@^16.2.0, react@^16.5.2:
   version "16.5.2"
   resolved "https://registry.yarnpkg.com/react/-/react-16.5.2.tgz#19f6b444ed139baa45609eee6dc3d318b3895d42"

@@ -5,9 +5,10 @@ import App from './components/App';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'font-awesome/css/font-awesome.min.css';
 import '@front10/landing-page-book/dist/themes/default/index.css';
+import './style.css';
+
 
 import * as serviceWorker from './serviceWorker';
-
 ReactDOM.render(<App />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
